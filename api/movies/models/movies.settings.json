@@ -41,6 +41,10 @@
     },
     "genre": {
       "model": "genre"
+    },
+    "tags": {
+      "via": "movies",
+      "collection": "tags"
     }
   }
 }
