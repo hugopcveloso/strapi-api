@@ -43,8 +43,27 @@
       "model": "genre"
     },
     "tags": {
-      "via": "movies",
-      "collection": "tags"
+      "collection": "tags",
+      "via": "movies"
+    },
+    "my_rating": {
+      "type": "integer",
+      "default": 50,
+      "unique": false,
+      "max": 100,
+      "min": 1
+    },
+    "imdb_rating": {
+      "type": "integer",
+      "default": 50,
+      "max": 100,
+      "min": 1
+    },
+    "rotten_rating": {
+      "type": "integer",
+      "default": 50,
+      "max": 100,
+      "min": 1
     }
   }
 }

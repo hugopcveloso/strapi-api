@@ -15,8 +15,8 @@
       "type": "string"
     },
     "movies": {
-      "collection": "movies",
       "via": "tags",
+      "collection": "movies",
       "dominant": true
     },
     "slug": {
