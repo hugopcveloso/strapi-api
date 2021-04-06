@@ -23,6 +23,9 @@
     "meetings": {
       "collection": "meetings",
       "via": "client"
+    },
+    "company": {
+      "type": "string"
     }
   }
 }
